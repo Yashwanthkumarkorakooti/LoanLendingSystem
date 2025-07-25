@@ -1,0 +1,13 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd backend && node index.js\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
